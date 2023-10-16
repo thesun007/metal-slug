@@ -1,0 +1,65 @@
+﻿  stdafx.cpp
+  Ai.cpp
+  Arabian.cpp
+  Attack.cpp
+  Background.cpp
+  BBullet.cpp
+  Boss.cpp
+D:\Backup\새 폴더\바탕화면\MetalSlugProject(dx3)\Client\Boss.cpp(380,37): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Boss2.cpp
+  BossAttack.cpp
+  BossReady.cpp
+  BossWait.cpp
+  Bullet.cpp
+  CamMgr.cpp
+  Character.cpp
+  Client.cpp
+  GameOver.cpp
+  Item.cpp
+  Npc.cpp
+  NpcJump.cpp
+  NpcGive.cpp
+  NpcMove.cpp
+  컴파일하고 있습니다...
+  NpcRun.cpp
+  CollisionMgr.cpp
+  CreateMgr.cpp
+  Device.cpp
+  EBullet.cpp
+  Effect.cpp
+  Enemy.cpp
+  Grenade.cpp
+  Jump.cpp
+  KeyMgr.cpp
+  LogoScene.cpp
+  M2.cpp
+  M2Ani.cpp
+  MainApp.cpp
+  Move.cpp
+  NpcWait.cpp
+  Obj.cpp
+  ObjDynamic.cpp
+  ObjMgr.cpp
+  ObjStatic.cpp
+  컴파일하고 있습니다...
+  Player.cpp
+  Player2.cpp
+  Ready.cpp
+  Scene.cpp
+  SceneMgr.cpp
+  SecondBack.cpp
+  SelectScene.cpp
+  Special.cpp
+  StageScene.cpp
+  Obstacle.cpp
+  StomEffect.cpp
+  Texture.cpp
+D:\Backup\새 폴더\바탕화면\MetalSlugProject(dx3)\Client\Texture.cpp(49,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  TextureMgr.cpp
+  TimeMgr.cpp
+  Wait.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1310 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Client.vcxproj -> D:\Backup\새 폴더\바탕화면\MetalSlugProject(dx3)\Release\Client.exe

@@ -1,0 +1,557 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{c2045b72-ab7c-41a4-9176-33281fb994f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainApp">
+      <UniqueIdentifier>{a52920a0-afbd-4f04-bdc5-6b063a9a4487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{9e1ad86b-7111-4b6e-be48-297bb0eead94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Device">
+      <UniqueIdentifier>{b97a996e-ddc9-4d52-b9a2-635030a81185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TextureMgr">
+      <UniqueIdentifier>{37615936-a52f-443f-9a5d-6cbc595a385e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TextureMgr\Texture">
+      <UniqueIdentifier>{739a4442-325d-4aa0-b3cf-438b72a4ed87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TimeMgr">
+      <UniqueIdentifier>{cd0646a8-ac7b-4fea-9544-addaa0ef5a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{8ca91344-96c8-4b59-b91b-fd8bae101887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Logo">
+      <UniqueIdentifier>{8e05e383-0af8-40ec-9597-979c12eba52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage">
+      <UniqueIdentifier>{896eea80-ef0b-4fd4-ab2d-383c5f8b8efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SceneMgr">
+      <UniqueIdentifier>{4656a2a2-dde3-4600-a3ff-0e3c305f3872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{5a0c266c-1be4-4a5f-aa4b-d32b4b027afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic">
+      <UniqueIdentifier>{d99ad887-5561-405b-b19b-9a6b96cfe0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Static">
+      <UniqueIdentifier>{9157505e-0a7c-443e-aa0f-f9c35606ed74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CamMgr">
+      <UniqueIdentifier>{00179ea7-899e-4045-9e98-317f4b920208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjMgr">
+      <UniqueIdentifier>{7d77a8fc-04a8-4ffa-a39d-96d80508e56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KeyMgr">
+      <UniqueIdentifier>{ed40d915-7616-4dd9-b7f6-66743c1bbe65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Select">
+      <UniqueIdentifier>{b066141c-e047-45c7-ba18-1447e1ae7920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Static\Select">
+      <UniqueIdentifier>{36259f84-c2ed-4daf-aeef-50047c5c967f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Static\Stage">
+      <UniqueIdentifier>{f9a5ba38-afae-4e2c-92fd-22a63844dce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Select">
+      <UniqueIdentifier>{f00550a1-f3dd-4150-bf5d-2511731b5216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage">
+      <UniqueIdentifier>{8ac8d8b9-bc17-49da-9887-5abed988b955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Player">
+      <UniqueIdentifier>{7789b450-8b54-43b7-b902-9fbb89842b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Static\Stage\Obstacle">
+      <UniqueIdentifier>{61ddc62d-8ca4-43a0-ba5e-8d7b8b844266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Static\Stage\Ground">
+      <UniqueIdentifier>{c916932f-a96c-4c30-a6a6-ea0a2325b5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CollisionMgr">
+      <UniqueIdentifier>{244251f2-3423-4ce8-8304-54e5e4280939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Enemy">
+      <UniqueIdentifier>{5a1c8caa-dea2-4b35-8f73-07237896480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{1be95f65-b431-477f-9f16-50c9d37f064f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Enemy\1.Arabian">
+      <UniqueIdentifier>{d61f3ce7-f10e-401d-af3a-526911e73a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Bullet&amp;Grenade">
+      <UniqueIdentifier>{025da95a-010b-460e-8a04-1dda1fc22cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CreateMgr">
+      <UniqueIdentifier>{bcb76e01-693b-4dd3-a522-e4c8a87a1d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian">
+      <UniqueIdentifier>{40b919d3-bd28-4de6-9f44-a54ba72fb82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian\Wait">
+      <UniqueIdentifier>{53c5118f-ea36-4fd0-83dd-e0acc04c570b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian\Ready">
+      <UniqueIdentifier>{70f4bcb8-4c57-44f9-ab05-d75a3fc6bb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian\Move">
+      <UniqueIdentifier>{d99bd252-b6fd-4947-9819-1f59608f139a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian\Jump">
+      <UniqueIdentifier>{4166e128-9303-4e64-b638-5e26c6a175f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian\Attack">
+      <UniqueIdentifier>{0c4f8836-86ef-4d6a-aee6-2db26b623a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\npc">
+      <UniqueIdentifier>{6441a75e-16b3-4f1c-8ebc-9cf4c69f9d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\npc\Wait">
+      <UniqueIdentifier>{62cb8f50-d77a-40f3-86a7-802ecc04781b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\npc\Move">
+      <UniqueIdentifier>{ea2bfa01-b811-4f71-bab2-20de754a53ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\npc\Give">
+      <UniqueIdentifier>{2d44f6aa-f76e-4e90-9fd3-50578a00e4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\npc\Run">
+      <UniqueIdentifier>{305b7066-854b-46ba-8a31-3ef641f1ab06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Npc">
+      <UniqueIdentifier>{d80b56bb-f4a2-4599-aeac-1c12970349f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Static\Stage\Effect">
+      <UniqueIdentifier>{6b190e61-c8cc-459a-b808-40da89984482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Item">
+      <UniqueIdentifier>{d8aa9e76-ebdd-452d-9ba0-abd6a1d3d7b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Boss">
+      <UniqueIdentifier>{38325781-6092-4065-b10f-fb62f2bc41ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Boss\Wait">
+      <UniqueIdentifier>{031220e5-1f15-4521-8111-a1ef06c356a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Boss\Attack">
+      <UniqueIdentifier>{c903770c-74a2-4753-bff5-4baab0eccf78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\npc\Jump">
+      <UniqueIdentifier>{047dcc03-91e7-4d60-b811-e27e1544a4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Boss\Ready">
+      <UniqueIdentifier>{e71f4c91-9764-4eec-a57a-d725eb873dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Enemy\2.Boss">
+      <UniqueIdentifier>{0b7b572c-e141-4a71-81c5-cd324523eeff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet">
+      <UniqueIdentifier>{24fb6d11-9591-4de7-99de-432bc1cbcf5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\Arabian\Special">
+      <UniqueIdentifier>{453255eb-7225-45ce-8e65-dbe3361aaba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Over">
+      <UniqueIdentifier>{37acd09c-40be-4bab-b2b8-4edee1389a89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Manager\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Manager\TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Manager\TextureMgr\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjStatic.h">
+      <Filter>Object\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="CamMgr.h">
+      <Filter>Manager\CamMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjDynamic.h">
+      <Filter>Object\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Dynamic\Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Object\Static\Stage\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>Object\Static\Stage\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>Scene\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Object\Static\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="M2.h">
+      <Filter>Object\Dynamic\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="M2Ani.h">
+      <Filter>Object\Dynamic\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Object\Static\Stage\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondBack.h">
+      <Filter>Object\Static\Stage\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2.h">
+      <Filter>Object\Dynamic\Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\Dynamic\Stage\Bullet&amp;Grenade</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Manager\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object\Dynamic\Stage\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Arabian.h">
+      <Filter>Object\Dynamic\Stage\Enemy\1.Arabian</Filter>
+    </ClInclude>
+    <ClInclude Include="Ai.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Wait.h">
+      <Filter>AI\Arabian\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="Ready.h">
+      <Filter>AI\Arabian\Ready</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>AI\Arabian\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.h">
+      <Filter>AI\Arabian\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Jump.h">
+      <Filter>AI\Arabian\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="EBullet.h">
+      <Filter>Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Object\Dynamic\Stage\Bullet&amp;Grenade</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMgr.h">
+      <Filter>Manager\CreateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcRun.h">
+      <Filter>AI\npc\Run</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcGive.h">
+      <Filter>AI\npc\Give</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcMove.h">
+      <Filter>AI\npc\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcWait.h">
+      <Filter>AI\npc\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Object\Dynamic\Stage\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcJump.h">
+      <Filter>AI\npc\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Dynamic\Stage\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Object\Dynamic\Stage\Enemy\2.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BBullet.h">
+      <Filter>Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BossWait.h">
+      <Filter>AI\Boss\Wait</Filter>
+    </ClInclude>
+    <ClInclude Include="BossReady.h">
+      <Filter>AI\Boss\Ready</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttack.h">
+      <Filter>AI\Boss\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="StomEffect.h">
+      <Filter>Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2.h">
+      <Filter>Object\Dynamic\Stage\Enemy\2.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Special.h">
+      <Filter>AI\Arabian\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Scene\Over</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Manager\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Manager\TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Manager\TextureMgr\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjStatic.cpp">
+      <Filter>Object\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="CamMgr.cpp">
+      <Filter>Manager\CamMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>Manager\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjDynamic.cpp">
+      <Filter>Object\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Dynamic\Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Object\Static\Stage\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>Object\Static\Stage\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>Scene\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Object\Static\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="M2.cpp">
+      <Filter>Object\Dynamic\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="M2Ani.cpp">
+      <Filter>Object\Dynamic\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Object\Static\Stage\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondBack.cpp">
+      <Filter>Object\Static\Stage\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2.cpp">
+      <Filter>Object\Dynamic\Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\Dynamic\Stage\Bullet&amp;Grenade</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Manager\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Arabian.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy\1.Arabian</Filter>
+    </ClCompile>
+    <ClCompile Include="Ai.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Wait.cpp">
+      <Filter>AI\Arabian\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="Ready.cpp">
+      <Filter>AI\Arabian\Ready</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>AI\Arabian\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>AI\Arabian\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump.cpp">
+      <Filter>AI\Arabian\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="EBullet.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Object\Dynamic\Stage\Bullet&amp;Grenade</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMgr.cpp">
+      <Filter>Manager\CreateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcRun.cpp">
+      <Filter>AI\npc\Run</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcGive.cpp">
+      <Filter>AI\npc\Give</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcMove.cpp">
+      <Filter>AI\npc\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcWait.cpp">
+      <Filter>AI\npc\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Object\Dynamic\Stage\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcJump.cpp">
+      <Filter>AI\npc\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Dynamic\Stage\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BBullet.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BossWait.cpp">
+      <Filter>AI\Boss\Wait</Filter>
+    </ClCompile>
+    <ClCompile Include="BossReady.cpp">
+      <Filter>AI\Boss\Ready</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttack.cpp">
+      <Filter>AI\Boss\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="StomEffect.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy\0.%28E,B%29Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy\2.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Special.cpp">
+      <Filter>AI\Arabian\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Scene\Over</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Object\Dynamic\Stage\Enemy\2.Boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

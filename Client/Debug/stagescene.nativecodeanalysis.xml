@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\dongju\desktop\metalslugproject\client\</FILEPATH>
+      <FILENAME>stagescene.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'ReadFile'.</DESCRIPTION>
+    <FUNCTION>CStageScene::ReadLine</FUNCTION>
+    <DECORATED>?ReadLine@CStageScene@@QAEXXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
