@@ -25,10 +25,10 @@ GIF Images
 ### 플레이어 상체 & 하체
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/f126b630-ec59-4232-b17f-d5f494972753">
 
-<br>   
+---
 플레이어 상체 업데이트 로직 요약  
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/06cb69a1-e7f6-49f5-a71f-651dbe7b733d" width="500px" height="800px">  
-<br/>
+
 
 > + 모션 결정 과정
 >  1. (점프 상태일 때/아닐 때 따로) 방향 키/점프 키 입력에 따른 움직임 모션 결정.
@@ -59,8 +59,9 @@ GIF Images
 
 > + 객체 이동 
 >  1. 상체의 월드행렬을 참조해서 부모로 적용함.  
- 
+--- 
 ### 아라비안
+---
 아라비안 업데이트 로직 요약
 > + 모션 결정 과정
 >  1. 플레이어 방향으로 방향 전환 모션 적용.
@@ -69,10 +70,10 @@ GIF Images
 > + 이동 위치 계산 과정
 >  1. 점프/백스탭/셔플/Run 모션에 따라 위치 값 결정
 > + 공격 과정
->   1. 결정된 공격 모션에 따라 투척 칼 생성 or 근접공격
+>  1. 결정된 공격 모션에 따라 투척 칼 생성 or 근접공격
 > + AI 과정 요약
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/c046d712-9348-41a7-8011-7d063433d40b">
-  
+---  
 <br>  
 ### 기능 3
 <p align="justify">
