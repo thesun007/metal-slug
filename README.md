@@ -29,8 +29,8 @@ GIF Images
 플레이어 상체 업데이트 로직 요약
 
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/06cb69a1-e7f6-49f5-a71f-651dbe7b733d" width="500px" height="800px">
+<br/>
 
-<br>
 > + 모션 결정 과정
 >  1. (점프 상태일 때/아닐 때 따로) 방향 키/점프 키 입력에 따른 움직임 모션 결정.
 >  2. 공격 키/수류탄 키 입력에 따른 모션 결정.
