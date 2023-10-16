@@ -25,12 +25,12 @@ GIF Images
 ### 플레이어 상체 & 하체
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/f126b630-ec59-4232-b17f-d5f494972753">
 
-<br/>   
+<br>   
 플레이어 상체 업데이트 로직 요약
 
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/06cb69a1-e7f6-49f5-a71f-651dbe7b733d" width="500px" height="800px">
 
-<br/>
+<br>
 > + 모션 결정 과정
 >  1. (점프 상태일 때/아닐 때 따로) 방향 키/점프 키 입력에 따른 움직임 모션 결정.
 >  2. 공격 키/수류탄 키 입력에 따른 모션 결정.
@@ -53,7 +53,7 @@ GIF Images
 >  1. 포물선 운동에 따른 높이 값(y) 추가 계산.
 >  2. 직선의 방정식에 따른 바닥 적용.(y 고정)
 
-<br/>   
+<br>   
 플레이어 하체 업데이트 로직 요약
 > + 모션 결정 과정
 >  1. (점프 상태일 때/아닐 때 따로) 방향 키/점프 키 입력에 따른 움직임 모션 결정.
@@ -62,7 +62,7 @@ GIF Images
 > + 객체 이동 
 >  1. 상체의 월드행렬을 참조해서 부모로 적용함.
 
-<br/>   
+<br>   
 ### 아라비안
 아라비안 업데이트 로직 요약
 > + 모션 결정 과정
@@ -76,7 +76,7 @@ GIF Images
 > + AI 과정 요약
 <img src="https://github.com/thesun007/metal-slug/assets/39186061/c046d712-9348-41a7-8011-7d063433d40b">
   
-<br/>  
+<br>  
 ### 기능 3
 <p align="justify">
 
